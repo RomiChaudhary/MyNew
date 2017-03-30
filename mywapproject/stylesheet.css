@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin:10px 10px 10px 10px ;  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;}
+a{color:#F00; text-decoration:none;}
+#wrapper{ width:1000px;}
+.heading
+{
+margin-left:20px;
+line-height:80px;
+}
+.logo
+{
+position:absolute;
+top:6%;
+left:17%;
+}
+.search
+{
+position:absolute;
+top:7%;
+right:28%;
+}
+#header{
+color:#873254;
+text-decoration:underline;font:
+height:100px; width:1000px;  background:-moz-linear-gradient(#181A3E,#4EACB3,#E6ECEC);border-bottom:4px solid #FC3;border-radius:8px;}
+#cmpnyname{height:80px; width:400px; float:left; padding:10px;}
+#divmrq{height:40px; width:500px; padding:10px; float:left; line-height:35px; font-size:20px; margin-left:300px; font-weight:bold; color:#03F; }
+#divmenu{height:30px; width:1000px; float:left;}
+#tabdiv{height:30px; width:150px; margin-left:5px; background:url(tab.png) no-repeat; float:left; line-height:30px; text-align:center; color:#F00; font-size:15px; font-weight:bold; text-transform:capitalize;}
+#tabselected{height:30px; width:150px; margin-left:5px; background:url(tabselected.png) no-repeat; float:left; line-height:30px; text-align:center; color:#F00; font-size:15px; font-weight:bold; text-transform:capitalize;}
+#mm{height:30px; width:1000px; float:left;}
+#tabdiv:hover{background:url(tabhovr.png) no-repeat;}
+#divmid{ width:1000px; float:left;}
+#panel,#panel1,#panel2,#panel3,#panel4,#flip,#flip1,#flip2,#flip3,#flip4
+{
+padding:5px
+height:30px; width:590px; float:left; text-transform:capitalize; line-height:30px; color:#FFF; background:#006;
+border:solid 1px #c3c3c3;
+}
+#panel,#panel1,#panel2,#panel3,#panel4
+{
+padding:10px;
+display:none;
+width:580px; float:left; text-transform:capitalize; color:#FFF; background:#F0F;
+height:auto;
+}
+#divtxt{width:600px; padding:10px 50px 50px 50px; float:left;}
+#divimg{padding:10px 50px 50px 40px; float:left; width:200px; height:200px;}
